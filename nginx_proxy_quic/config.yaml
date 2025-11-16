@@ -1,17 +1,17 @@
 ---
-version: 3.14.0
+version: 0.1.0
 hassio_api: true
 slug: nginx_proxy
 name: NGINX Home Assistant SSL proxy
 description: An SSL/TLS proxy
-url: https://github.com/home-assistant/addons/tree/master/nginx_proxy
+url: https://github.com/kmhallen/ha-addon-nginx_proxy_quic/tree/main/nginx_proxy_quic
 arch:
   - armhf
   - armv7
   - aarch64
   - amd64
   - i386
-image: homeassistant/{arch}-addon-nginx_proxy
+image: kmhallen/{arch}-addon-nginx_proxy_quic
 init: false
 map:
   - ssl
