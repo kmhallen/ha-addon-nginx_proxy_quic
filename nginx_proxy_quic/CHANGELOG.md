@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3
+
+- Remove HTTP/3 (QUIC) config options that were redundant with specified port
+
 ## 0.2
 
 - Support HTTP/3 (QUIC)
