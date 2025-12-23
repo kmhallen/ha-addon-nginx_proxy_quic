@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4
+
+- Add quotes to fix linter error
+
 ## 0.3
 
 - Remove HTTP/3 (QUIC) config options that were redundant with specified port
